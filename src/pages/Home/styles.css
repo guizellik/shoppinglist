@@ -1,0 +1,33 @@
+.product-list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+button {
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  background-color: #6bccf1;
+  border-color: #6bccf1;
+  width: 90px;
+}
+
+button:hover {
+  background-color: #e1f1f3;
+  border-color: #e1f1f3;
+}
+

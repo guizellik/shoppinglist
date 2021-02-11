@@ -1,0 +1,28 @@
+.product-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-wrapper img {
+  margin-right: 20px;
+  width: 10%;
+}
+
+.product-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-details-wrapper p {
+  margin: 5px 0;
+}
+
+ul {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul h2 {
+  color: steelblue;
+
+}
